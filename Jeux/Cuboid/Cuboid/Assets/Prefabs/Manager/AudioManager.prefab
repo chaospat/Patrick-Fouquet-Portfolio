@@ -1,0 +1,264 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1563630173869328}
+  m_IsPrefabParent: 1
+--- !u!1 &1563630173869328
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4308735941533798}
+  - component: {fileID: 114223851395116910}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4308735941533798
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1563630173869328}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114223851395116910
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1563630173869328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4794ac870c9afe4e9260c8e0cc97ca9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Musique_Jeu
+    clip: {fileID: 8300000, guid: 96468af9ff1b1e14da756071baaf9a9b, type: 3}
+    output: {fileID: 243462448325884134, guid: 68739206651769c479cf85faf1a0876d, type: 2}
+    volume: 0.15
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Shoot
+    clip: {fileID: 8300000, guid: 01c57818a9ff3464abf57314868e7d18, type: 3}
+    output: {fileID: 243657678957942896, guid: 68739206651769c479cf85faf1a0876d, type: 2}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: ItemPickup
+    clip: {fileID: 8300000, guid: 1843ffcd84e5d3243966505cfc0fd8de, type: 3}
+    output: {fileID: 243657678957942896, guid: 68739206651769c479cf85faf1a0876d, type: 2}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: temp_UseItem
+    clip: {fileID: 8300000, guid: 55a95a5ccda45f14c814ddc87477ec9b, type: 3}
+    output: {fileID: 243657678957942896, guid: 68739206651769c479cf85faf1a0876d, type: 2}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: StompBoss
+    clip: {fileID: 8300000, guid: 12e07761c898e3e439fcdc2478bd0dbe, type: 3}
+    output: {fileID: 243657678957942896, guid: 68739206651769c479cf85faf1a0876d, type: 2}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: LaserBossStart
+    clip: {fileID: 8300000, guid: 586bffde714ffae45ac5f92422886851, type: 3}
+    output: {fileID: 243226447532772744, guid: 68739206651769c479cf85faf1a0876d, type: 2}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: LaserBossMilieu
+    clip: {fileID: 8300000, guid: bb4d489129f87f844af46bb64b6338e5, type: 3}
+    output: {fileID: 243226447532772744, guid: 68739206651769c479cf85faf1a0876d, type: 2}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: LaserBossFin
+    clip: {fileID: 8300000, guid: 2adf389b0b572f74698a8f39a13b60cd, type: 3}
+    output: {fileID: 24300002, guid: 68739206651769c479cf85faf1a0876d, type: 2}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: ShieldBossDown
+    clip: {fileID: 8300000, guid: c069ffee81038514d93164afa69f4853, type: 3}
+    output: {fileID: 243657678957942896, guid: 68739206651769c479cf85faf1a0876d, type: 2}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: ExplosionBoss
+    clip: {fileID: 8300000, guid: 6308d0381fb105b45afa8852b4855455, type: 3}
+    output: {fileID: 243657678957942896, guid: 68739206651769c479cf85faf1a0876d, type: 2}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: BombExplosion
+    clip: {fileID: 8300000, guid: 7f06613d8edea474bb136fdac9b32d67, type: 3}
+    output: {fileID: 243657678957942896, guid: 68739206651769c479cf85faf1a0876d, type: 2}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: PickupSound
+    clip: {fileID: 8300000, guid: 4b550ab53b398bf4cb6885d15f819aa1, type: 3}
+    output: {fileID: 243657678957942896, guid: 68739206651769c479cf85faf1a0876d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Teleport1
+    clip: {fileID: 8300000, guid: 2961cd72545f3e44d8738cbd5da42b6d, type: 3}
+    output: {fileID: 243657678957942896, guid: 68739206651769c479cf85faf1a0876d, type: 2}
+    volume: 0.1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Teleport2
+    clip: {fileID: 8300000, guid: 80c9b6480eccdb64c929f026fb16cefa, type: 3}
+    output: {fileID: 243657678957942896, guid: 68739206651769c479cf85faf1a0876d, type: 2}
+    volume: 0.1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SmallExplosion
+    clip: {fileID: 8300000, guid: ba3ade054943bde41b18642c6acd15c3, type: 3}
+    output: {fileID: 243657678957942896, guid: 68739206651769c479cf85faf1a0876d, type: 2}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: EscapeMusic
+    clip: {fileID: 8300000, guid: f3973dcc07da85a48931e171a69e3574, type: 3}
+    output: {fileID: 243657678957942896, guid: 68739206651769c479cf85faf1a0876d, type: 2}
+    volume: 0.05
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: BlocDetruit
+    clip: {fileID: 8300000, guid: b556be117c3f2f6408eccc485a379007, type: 3}
+    output: {fileID: 243657678957942896, guid: 68739206651769c479cf85faf1a0876d, type: 2}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: ChangeGun
+    clip: {fileID: 8300000, guid: f1f3330fb0c18f94cb093dd667a83265, type: 3}
+    output: {fileID: 243657678957942896, guid: 68739206651769c479cf85faf1a0876d, type: 2}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: LaunchMissile
+    clip: {fileID: 8300000, guid: 2734b9330aa92884e823af79589e9707, type: 3}
+    output: {fileID: 243657678957942896, guid: 68739206651769c479cf85faf1a0876d, type: 2}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: NavMenu
+    clip: {fileID: 8300000, guid: 8c5f354d8f78b0b43a7f4c8020c1f6f1, type: 3}
+    output: {fileID: 243657678957942896, guid: 68739206651769c479cf85faf1a0876d, type: 2}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: HurtPlayer
+    clip: {fileID: 8300000, guid: 516fb09eb12051a46b35408b0b984885, type: 3}
+    output: {fileID: 243657678957942896, guid: 68739206651769c479cf85faf1a0876d, type: 2}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: HurtEnnemi
+    clip: {fileID: 8300000, guid: 8ff5762df7c5a354a8cd67baf10fe0f1, type: 3}
+    output: {fileID: 243657678957942896, guid: 68739206651769c479cf85faf1a0876d, type: 2}
+    volume: 0.07
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: RespawnPlayer
+    clip: {fileID: 8300000, guid: 67063b2c2ae145d4fabbc177f5e477e2, type: 3}
+    output: {fileID: 243657678957942896, guid: 68739206651769c479cf85faf1a0876d, type: 2}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: GrappleSound
+    clip: {fileID: 8300000, guid: 7a63bee4e1b8ba244b02196e74d18a4f, type: 3}
+    output: {fileID: 243657678957942896, guid: 68739206651769c479cf85faf1a0876d, type: 2}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: ExplosionPlanet
+    clip: {fileID: 8300000, guid: a6e7832ffce7efd418027ddd3c5cfdb0, type: 3}
+    output: {fileID: 243657678957942896, guid: 68739206651769c479cf85faf1a0876d, type: 2}
+    volume: 0.75
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: MusiqueFin
+    clip: {fileID: 8300000, guid: 4917b9f6b556c014b9be7f001ce53fb3, type: 3}
+    output: {fileID: 243462448325884134, guid: 68739206651769c479cf85faf1a0876d, type: 2}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: ExplosionP
+    clip: {fileID: 8300000, guid: 6308d0381fb105b45afa8852b4855455, type: 3}
+    output: {fileID: 243657678957942896, guid: 68739206651769c479cf85faf1a0876d, type: 2}
+    volume: 0.1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: mort
+    clip: {fileID: 8300000, guid: 8413d32fa4b69b64cb38d06425a56d77, type: 3}
+    output: {fileID: 243462448325884134, guid: 68739206651769c479cf85faf1a0876d, type: 2}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: MusiqueJeu2
+    clip: {fileID: 8300000, guid: ea27e518f9ffac14aa624df9bd2b2187, type: 3}
+    output: {fileID: 243462448325884134, guid: 68739206651769c479cf85faf1a0876d, type: 2}
+    volume: 0.5
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Boss
+    clip: {fileID: 8300000, guid: 3dece8dfdca902747a7460ca49ae30be, type: 3}
+    output: {fileID: 243462448325884134, guid: 68739206651769c479cf85faf1a0876d, type: 2}
+    volume: 0.5
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}

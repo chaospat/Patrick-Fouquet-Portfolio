@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ennemi
+  - GM
+  - KillZone
+  - HealthUI
+  - Node
+  - Boss
+  - Shield
+  - CameraHolder
+  - Destructible
+  - GrappleUI
+  - MissileUI
+  - laserBoss
+  - UpgradeDialogUI
+  - Spawner_Ennemi
+  - BulletUI
+  - Ancre
+  - EscapeTimerUI
+  - Canon
+  - TeleportEffect
+  - SmokeEffect
+  - EndGameTrigger
+  - CheckPoint
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - Background
+  - Obstacle
+  - Ennemi
+  - Bullet
+  - collideTest
+  - Boss
+  - Shield
+  - Spawn
+  - Canon
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 3666684589
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Obstacle
+    uniqueID: 2979246667
+    locked: 0
+  - name: Ennemi
+    uniqueID: 657130307
+    locked: 0
+  - name: Player
+    uniqueID: 2048899763
+    locked: 0
+  - name: Foreground
+    uniqueID: 3667754483
+    locked: 0

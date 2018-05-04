@@ -1,0 +1,286 @@
+fileFormatVersion: 2
+guid: b452f8fff9f3dd44290e73a02d9e6af6
+timeCreated: 1507366681
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: MisterManSpriteSheetOfficial_0
+    21300002: MisterManSpriteSheetOfficial_1
+    21300004: MisterManSpriteSheetOfficial_2
+    21300006: MisterManSpriteSheetOfficial_3
+    21300008: MisterManSpriteSheetOfficial_4
+    21300010: MisterManSpriteSheetOfficial_5
+    21300012: MisterManSpriteSheetOfficial_6
+    21300014: MisterManSpriteSheetOfficial_7
+    21300016: MisterManSpriteSheetOfficial_8
+    21300018: MisterManSpriteSheetOfficial_9
+    21300020: MisterManSpriteSheetOfficial_10
+    21300022: MisterManSpriteSheetOfficial_11
+    21300024: MisterManSpriteSheetOfficial_12
+    21300026: MisterManSpriteSheetOfficial_13
+    21300028: MisterManSpriteSheetOfficial_14
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MisterManSpriteSheetOfficial_0
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1446
+        width: 274
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MisterManSpriteSheetOfficial_1
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 1446
+        width: 270
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MisterManSpriteSheetOfficial_2
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 1446
+        width: 265
+        height: 393
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MisterManSpriteSheetOfficial_3
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 1446
+        width: 270
+        height: 395
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MisterManSpriteSheetOfficial_4
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 966
+        width: 274
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MisterManSpriteSheetOfficial_5
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 970
+        width: 288
+        height: 395
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MisterManSpriteSheetOfficial_6
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 970
+        width: 311
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MisterManSpriteSheetOfficial_7
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 966
+        width: 288
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MisterManSpriteSheetOfficial_8
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 489
+        width: 245
+        height: 393
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MisterManSpriteSheetOfficial_9
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 486
+        width: 246
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MisterManSpriteSheetOfficial_10
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 497
+        width: 245
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MisterManSpriteSheetOfficial_11
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 486
+        width: 246
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MisterManSpriteSheetOfficial_12
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 6
+        width: 267
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MisterManSpriteSheetOfficial_13
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 8
+        width: 286
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MisterManSpriteSheetOfficial_14
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 8
+        width: 280
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

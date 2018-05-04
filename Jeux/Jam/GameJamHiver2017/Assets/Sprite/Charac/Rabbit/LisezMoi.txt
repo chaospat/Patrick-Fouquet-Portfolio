@@ -1,0 +1,6 @@
+Garder en tete:
+	Le sprite sheet n'est pas de taille 150 x 150.
+	Il faut regarder la dimension de l'image et diviser
+	par le nombre de lignes et de colonnes.
+
+	12 Frames Par Secondes
